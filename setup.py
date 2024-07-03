@@ -14,6 +14,9 @@ setup(
 )
 
 setup(
-    # ...
-    packages=['occ', 'wocemaps', 'spmap']
+    packages=find_packages(
+        where='src',
+        include=['wocemaps*'],include=['spmap*'],  # alternatively: `exclude=['additional*']`
+    ),
+    package_dir={"": "src"}
 )
