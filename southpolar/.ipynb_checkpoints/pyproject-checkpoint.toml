@@ -1,7 +1,7 @@
 ['project']
 
 name = 'occlab' 
-version = "0.0.2"
+version = "0.0.1"
 authors = [
   { name="Emma Holtzman", email="holtzmaner@gmail.com" },{name= "Dr. Rebecca Beadling", email= "rebecca.beadling@temple.edu"}
 ]
@@ -20,9 +20,3 @@ Homepage = "https://github.com/emma138/occlab"
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
-
-[tool.setuptools.packages.find]
-where = ["wocemaps", "southpolar"]  # list of folders that contain the packages (["."] by default)
-include = ["wocemaps", "spmap"]  # package names should match these glob patterns (["*"] by default)
-exclude = []  # exclude packages matching these glob patterns (empty by default)
-namespaces = false  # to disable scanning PEP 420 namespaces (true by default)

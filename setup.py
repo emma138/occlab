@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='occlab',
-    version='0.0.1',
+    version='0.0.2',
     install_requires=[
         'requests',
         'importlib-metadata; python_version<"3.10"',
@@ -15,5 +15,5 @@ setup(
 
 setup(
     # ...
-    packages=['occ', 'wocemap', 'spmap']
+    packages=['occ', 'wocemaps', 'spmap']
 )
