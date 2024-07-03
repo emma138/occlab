@@ -6,5 +6,7 @@ src/occlab.egg-info/PKG-INFO
 src/occlab.egg-info/SOURCES.txt
 src/occlab.egg-info/dependency_links.txt
 src/occlab.egg-info/top_level.txt
+src/southpolar/example.py
 src/southpolar/spmap.py
+src/wocemaps/example.py
 src/wocemaps/wocemap.py
