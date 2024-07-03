@@ -10,7 +10,6 @@ setup(
 )
 
 setup(
-    ...
     setup_requires=['wheel']
 )
 
