@@ -2,7 +2,6 @@
 
 name = 'occlab' 
 version = "0.0.1"
-setup= 'setup'
 authors = [
   { name="Emma Holtzman", email="holtzmaner@gmail.com" },{name= "Dr. Rebecca Beadling", email= "rebecca.beadling@temple.edu"}
 ]
@@ -17,3 +16,7 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/emma138/occlab"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
