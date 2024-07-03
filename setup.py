@@ -17,7 +17,7 @@ setup(
 setup(
     packages=find_packages(
         where='src',
-        include=['wocemaps*'],include=['spmap*'],  # alternatively: `exclude=['additional*']`
+        include=['wocemaps*','spmap*'],  # alternatively: `exclude=['additional*']`
     ),
     package_dir={"": "src"}
 )
