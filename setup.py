@@ -8,6 +8,12 @@ setup(
         'importlib-metadata; python_version<"3.10"',
     ],
 )
+
+setup(
+    ...
+    setup_requires=['wheel']
+)
+
 setup(
     package_dir={"":"src"}
 )
