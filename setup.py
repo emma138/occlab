@@ -14,5 +14,6 @@ setup(
 )
 
 setup(
-    package_dir={"":"src"}
+    # ...
+    packages=['occ', 'wocemap', 'spmap']
 )

@@ -2,6 +2,7 @@ LICENSE
 README.md
 pyproject.toml
 setup.py
+src/__init__.py
 src/occlab.egg-info/PKG-INFO
 src/occlab.egg-info/SOURCES.txt
 src/occlab.egg-info/dependency_links.txt
