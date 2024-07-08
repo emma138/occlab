@@ -73,9 +73,7 @@ cdict_salinity = {
     ),
 }
 
-salinity = mpl.colors.LinearSegmentedColormap(
-    "Salinity", segmentdata=cdict_salinity
-)
+salinity = mpl.colors.LinearSegmentedColormap("Salinity", segmentdata=cdict_salinity)
 
 ### defining neutral density color bar
 cdict_neutraldensity = {
@@ -166,9 +164,7 @@ cdict_oxygen = {
     ),
 }
 
-oxygen = mpl.colors.LinearSegmentedColormap(
-    "Oxygen", segmentdata=cdict_oxygen
-)
+oxygen = mpl.colors.LinearSegmentedColormap("Oxygen", segmentdata=cdict_oxygen)
 
 
 ### defining phosphate color bar
@@ -205,9 +201,7 @@ cdict_phosphate = {
     ),
 }
 
-phosphate = mpl.colors.LinearSegmentedColormap(
-    "Phosphate", segmentdata=cdict_phosphate
-)
+phosphate = mpl.colors.LinearSegmentedColormap("Phosphate", segmentdata=cdict_phosphate)
 
 ### defining nitrate color bar
 cdict_nitrate = {
@@ -243,9 +237,7 @@ cdict_nitrate = {
     ),
 }
 
-nitrate = mpl.colors.LinearSegmentedColormap(
-    "Nitrate", segmentdata=cdict_nitrate
-)
+nitrate = mpl.colors.LinearSegmentedColormap("Nitrate", segmentdata=cdict_nitrate)
 
 
 ### defining silicate color bar
@@ -282,9 +274,7 @@ cdict_silicate = {
     ),
 }
 
-silicate = mpl.colors.LinearSegmentedColormap(
-    "Silicate", segmentdata=cdict_silicate
-)
+silicate = mpl.colors.LinearSegmentedColormap("Silicate", segmentdata=cdict_silicate)
 
 
 ### defining alkalinity color bar
@@ -360,9 +350,7 @@ cdict_totalco2 = {
     ),
 }
 
-totalco2 = mpl.colors.LinearSegmentedColormap(
-    "Total co2", segmentdata=cdict_totalco2
-)
+totalco2 = mpl.colors.LinearSegmentedColormap("Total co2", segmentdata=cdict_totalco2)
 
 
 ### defining cfc11 color bar
@@ -436,9 +424,7 @@ cdict_tritium = {
     ),
 }
 
-tritium = mpl.colors.LinearSegmentedColormap(
-    "Tritium", segmentdata=cdict_tritium
-)
+tritium = mpl.colors.LinearSegmentedColormap("Tritium", segmentdata=cdict_tritium)
 
 
 ### defining d3he color bar
