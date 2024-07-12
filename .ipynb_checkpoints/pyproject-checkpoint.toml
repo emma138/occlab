@@ -1,11 +1,11 @@
 ['project']
 
-name = 'wocemaps' 
-version = "0.0.1"
+name = 'occlab' 
+version = "0.1"
 authors = [
   { name="Emma Holtzman", email="holtzmaner@gmail.com" },{name= "Dr. Rebecca Beadling", email= "rebecca.beadling@temple.edu"}
 ]
-description = "Color maps from the World Ocean Circulation Experiment translated to be used in Python" 
+description = "Compilation of functions and packages created by the OCC Lab at Temple University under the supervision of Dr. Rebecca Beadling." 
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
@@ -13,6 +13,20 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = ['requests', 'importlib-metadata;']
 
 [project.urls]
-Homepage = "https://github.com/EES-3506-5506/Code_share/tree/main"
+Homepage = "https://github.com/emma138/occlab"
+
+[build-system]
+requires = [ "setuptools>=41", "wheel", "setuptools-git-versioning"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# [tool.setuptools.packages.find]
+# where = ["wocemaps", "southpolar"]  # list of folders that contain the packages (["."] by default)
+# include = ["wocemaps*", "spmap*"]  # package names should match these glob patterns (["*"] by default)
+# exclude = []  # exclude packages matching these glob patterns (empty by default)
+# namespaces = false  # to disable scanning PEP 420 namespaces (true by default)
