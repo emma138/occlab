@@ -9,7 +9,6 @@ authors = [
   { name="Emma Holtzman", email="holtzmaner@gmail.com" },{name= "Dr. Rebecca Beadling", email= "rebecca.beadling@temple.edu"}
 ]
 description = "Compilation of functions and packages created by the OCC Lab at Temple University under the supervision of Dr. Rebecca Beadling." 
-dynamic = ["version"]
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
