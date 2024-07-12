@@ -10,8 +10,8 @@ __description__ = msg["Summary"]
 __requires__ = msg["Requires-Dist"]
 __requires_python__ = msg["Requires-Python"]
 
-from . import spmap
-from . import wocemaps
+import spmap
+import wocemaps
 
 
 from spmap import south_pole_map
