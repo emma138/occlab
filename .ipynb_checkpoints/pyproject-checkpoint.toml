@@ -1,5 +1,8 @@
-['project']
+[build-system]
+requires = [ "setuptools>=41", "wheel", "setuptools-git-versioning"]
+build-backend = "setuptools.build_meta"
 
+['project']
 name = 'occlab' 
 version = "0.1"
 authors = [
@@ -17,10 +20,6 @@ dependencies = ["requests", "importlib_metadata <5.0.0"]
 
 [project.urls]
 Homepage = "https://github.com/emma138/occlab"
-
-[build-system]
-requires = [ "setuptools>=41", "wheel", "setuptools-git-versioning"]
-build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["src"]
